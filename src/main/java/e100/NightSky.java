@@ -63,6 +63,7 @@ public class NightSky {
 	 * separate line of the night sky
 	 */
 	public void print() {
+		this.starsInLastPrint = 0;
 		for (int i = 0; i < height; i++) {
 			printLine();
 		}
