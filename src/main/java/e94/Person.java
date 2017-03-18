@@ -33,6 +33,8 @@ public class Person {
 	}
 	
 	public void changeNumber(String newNumber){
-		
+		if(this.number !=newNumber){
+			this.number = newNumber;
+		}
 	}
 }
