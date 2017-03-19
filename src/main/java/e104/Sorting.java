@@ -21,10 +21,12 @@ public class Sorting {
 					array[i + 1] = array[i];
 					array[i] = temp;
 				}
-				for (int k = 0; k < array.length; k++) {
-					System.out.println(Arrays.toString(array));
-				}
-				//System.out.println();
+				
+				System.out.println(Arrays.toString(array));
+				// for (int k = 0; k < array.length; k++) {
+				// System.out.print(array[k]+" ");
+				// }
+				// System.out.println();
 			}
 
 	}
