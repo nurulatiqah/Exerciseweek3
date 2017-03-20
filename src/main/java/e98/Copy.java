@@ -25,15 +25,10 @@ public static void main(String[] args) {
  * @return
  */
 public static int[] copy(int[] array) {
-	int i = 4;
-	int[] newArray = new int[i];
-	newArray[1] = 2;
-	newArray[2] = 3;
-	newArray[3] = 4;
-	for(i=0;i<array.length;i++)
-	if(array[0] == array[i]){
+
+	int[] newArray = new int[array.length];
+	for(int i=0;i<array.length;i++)
+	newArray[i] = array[i]
 		return newArray;
-	}
-	return array;
 }
 }
