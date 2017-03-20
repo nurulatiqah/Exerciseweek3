@@ -28,7 +28,7 @@ public static int[] copy(int[] array) {
 
 	int[] newArray = new int[array.length];
 	for(int i=0;i<array.length;i++)
-	newArray[i] = array[i]
+	newArray[i] = array[i];
 		return newArray;
 }
 }
